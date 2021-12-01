@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 225, 0);
+  }
+
+  h2 {
+      background-color: rgb(255, 225, 0); 
+      width: fit-content;
+      padding-left:30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: 'Jomhuria', cursive;
+      font-size: 41px;
+      color: black;
+      padding-top: 10px;
+      margin-left: 30px ;
+  }
+  ::selection {
+    color: white;
+    background-color:rgb(255, 225, 0);
+  }
+  #imgs {
+    height: 380px;
+    width: 490px;
+    margin-left: 30px ;
+  }
+  @media screen and (max-width: 320px) {
+    #header {
+      color: white;
+      font-family: 'Fruktur', cursive;
+      font-size: 50px;
+      text-decoration: underline;
+      background-color: black;
+      height: 70px;
+      padding-bottom: 20px; 
+      margin-bottom:30px;
+      margin-left: 30px;
+    }
+#imgs {
+  width: 260px;
+  height: 230px;
+  margin-right: 45px;
+  }
+  h2 {
+    margin-right: 20px;
+  }
+  }
+
+  @media screen and (min-width: 321px) {
+    #header {
+      font-family: 'Fruktur', cursive;
+      color: white;
+      font-size: 50px;
+      text-decoration: underline;
+      background-color: black;
+      height: 70px;
+      padding-bottom: 20px; 
+      margin-bottom:30px;
+    }
+    #imgs {
+      width: 260px;
+      height: 230px;
+      margin-right: 45px;
+      }
+      h2 {
+        margin-right: 20px;
+      }
+  }
+  @media screen and (min-width: 426px) {
+    #header {
+      font-family: 'Fruktur', cursive;
+      color: white;
+      font-size: 50px;
+      text-decoration: underline;
+      margin-left: 30px;   
+  } 
+  #imgs {
+    height: 380px;
+    width: 490px;
+    margin-left: 30px ;
+  }
+}
